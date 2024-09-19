@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: naver
-          image: nks.kr.private-ncr.ntruss.com/hello:plain-text
+          image: httpd
           ports:
             - containerPort: 80
 ---

@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: cloud
-          image: nks.krs.private-ncr.ntruss.com/hello:plain-text
+          image: nginx
           ports:
             - containerPort: 80
 ---
