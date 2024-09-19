@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: cloud
-          image: nks.kr.private-ncr.ntruss.com/hello:plain-text
+          image: nks.krs.private-ncr.ntruss.com/hello:plain-text
           ports:
             - containerPort: 80
 ---
